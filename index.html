@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio Pessoal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="imagens/foto.jpg" alt="Minha Foto" id="foto-perfil">
+    <h1>Matheus Almeida</h1>
+    <p>Desenvolvedor Full-Stack</p>
+  </header>
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou um profissional de TI com experiência tanto na capacitação de desenvolvedores quanto na consultoria estratégica para incentivos fiscais em tecnologia.</p>
+  </section>
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="form-contato">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" required>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <script>
+    document.getElementById('form-contato').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Mensagem enviada com sucesso!');
+    });
+  </script>
+</body>
+</html>

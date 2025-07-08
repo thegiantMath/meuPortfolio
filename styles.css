@@ -1,0 +1,23 @@
+/* styles.css: Estilos da Página Pessoal */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+#foto-perfil {
+  border-radius: 50%;
+  width: 150px;
+}
+section {
+  margin: 20px;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+}
